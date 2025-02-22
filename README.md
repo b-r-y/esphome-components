@@ -188,15 +188,5 @@ uart:
     baud_rate: 38400
     stop_bits: 1
     parity: NONE
-
-modbus:
-    - id: ${device}_modbus
-      uart_id: uart_${device}
-
-modbus_controller:
-  id: ${device}_modbus_controller
-  address: 0x1
-  modbus_id: wavin_modbus
-  update_interval: 60s
 ```
 
