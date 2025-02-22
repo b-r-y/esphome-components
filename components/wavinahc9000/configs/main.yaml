@@ -2,7 +2,7 @@ external_components:
     # use all components from a local folder
   - source:
       type: git
-      path: https://github.com/b-r-y/esphome-components
+      url: https://github.com/b-r-y/esphome-components
       ref: main
     components: [wavinahc9000]
     refresh: 0s
